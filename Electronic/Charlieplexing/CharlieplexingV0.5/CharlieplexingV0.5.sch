@@ -1,0 +1,494 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L fab2020:UPDI-SMD-HEADER M?
+U 1 1 5F5B463A
+P 1250 7650
+F 0 "M?" H 1250 7650 45  0001 C CNN
+F 1 "UPDI-SMD-HEADER" H 1250 7650 45  0001 C CNN
+F 2 "fab:fab-1X02SMD" H 1280 7800 20  0001 C CNN
+F 3 "" H 1250 7650 50  0001 C CNN
+	1    1250 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L fab2020:BattryConnector U1
+U 1 1 5F5B52E9
+P 1425 5500
+F 0 "U1" H 1500 5865 50  0000 C CNN
+F 1 "BattryConnector" H 1500 5774 50  0000 C CNN
+F 2 "" H 1425 5500 50  0001 C CNN
+F 3 "" H 1425 5500 50  0001 C CNN
+	1    1425 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L fab2020:VOLTAGE-REGULATOR-SOT223 U2
+U 1 1 5F5B9D27
+P 1525 6250
+F 0 "U2" H 1525 6492 50  0000 C CNN
+F 1 "VOLTAGE-REGULATOR-SOT223" H 1525 6401 50  0000 C CNN
+F 2 "fab2020:fab-SOT223" H 1525 6450 50  0001 C CNN
+F 3 "" H 1625 6000 50  0001 C CNN
+	1    1525 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L fab2020:CAP-US1206FAB C2
+U 1 1 5F5BAEB1
+P 2125 6350
+F 0 "C2" V 2133 6478 45  0000 L CNN
+F 1 "1uF" V 2217 6478 45  0000 L CNN
+F 2 "fab:fab-C1206FAB" H 2155 6500 20  0001 C CNN
+F 3 "" H 2125 6350 50  0001 C CNN
+	1    2125 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L fab2020:CAP-US1206FAB C1
+U 1 1 5F5BB972
+P 950 6350
+F 0 "C1" V 958 6478 45  0000 L CNN
+F 1 "10uF" V 1042 6478 45  0000 L CNN
+F 2 "fab:fab-C1206FAB" H 980 6500 20  0001 C CNN
+F 3 "" H 950 6350 50  0001 C CNN
+	1    950  6350
+	0    1    1    0   
+$EndComp
+$Comp
+L fab2020:CAP-US1206FAB C3
+U 1 1 5F5BBE36
+P 2275 1000
+F 0 "C3" H 2325 1254 45  0000 C CNN
+F 1 "0.1uF" H 2325 1170 45  0000 C CNN
+F 2 "fab:fab-C1206FAB" H 2305 1150 20  0001 C CNN
+F 3 "" H 2275 1000 50  0001 C CNN
+	1    2275 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R1
+U 1 1 5F5BC47B
+P 2975 3025
+F 0 "R1" V 2933 3093 45  0000 L CNN
+F 1 "499" V 3017 3093 45  0000 L CNN
+F 2 "fab-R1206FAB" H 3005 3175 20  0001 C CNN
+F 3 "" H 2975 3025 50  0001 C CNN
+	1    2975 3025
+	0    1    1    0   
+$EndComp
+$Comp
+L fab2020:ATtiny3216 U?
+U 1 1 5F5B16E7
+P 2300 2150
+F 0 "U?" H 2300 3117 50  0000 C CNN
+F 1 "ATtiny3216" H 2300 3026 50  0000 C CNN
+F 2 "fab2020:fab-SOIC-20_7.5x12.8mm_P1.27mm" H 2300 2150 50  0001 C CIN
+F 3 "" H 2300 2150 50  0001 C CNN
+	1    2300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R2
+U 1 1 5F5CCEF5
+P 3100 2875
+F 0 "R2" V 3058 2943 45  0000 L CNN
+F 1 "499" V 3142 2943 45  0000 L CNN
+F 2 "fab-R1206FAB" H 3130 3025 20  0001 C CNN
+F 3 "" H 3100 2875 50  0001 C CNN
+	1    3100 2875
+	0    1    1    0   
+$EndComp
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R3
+U 1 1 5F5D6C8A
+P 3225 2725
+F 0 "R3" V 3183 2793 45  0000 L CNN
+F 1 "499" V 3267 2793 45  0000 L CNN
+F 2 "fab-R1206FAB" H 3255 2875 20  0001 C CNN
+F 3 "" H 3225 2725 50  0001 C CNN
+	1    3225 2725
+	0    1    1    0   
+$EndComp
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R4
+U 1 1 5F5D743F
+P 3350 2575
+F 0 "R4" V 3308 2643 45  0000 L CNN
+F 1 "499" V 3392 2643 45  0000 L CNN
+F 2 "fab-R1206FAB" H 3380 2725 20  0001 C CNN
+F 3 "" H 3350 2575 50  0001 C CNN
+	1    3350 2575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2975 2825 2900 2825
+Wire Wire Line
+	3100 2675 2900 2675
+Wire Wire Line
+	3225 2525 2900 2525
+Wire Wire Line
+	3350 2375 2900 2375
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R5
+U 1 1 5F5D8B81
+P 3450 2425
+F 0 "R5" V 3408 2493 45  0000 L CNN
+F 1 "499" V 3492 2493 45  0000 L CNN
+F 2 "fab-R1206FAB" H 3480 2575 20  0001 C CNN
+F 3 "" H 3450 2425 50  0001 C CNN
+	1    3450 2425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 2225 2900 2225
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R6
+U 1 1 5F5D9DD1
+P 2975 1725
+F 0 "R6" V 2933 1793 45  0000 L CNN
+F 1 "499" V 3017 1793 45  0000 L CNN
+F 2 "fab-R1206FAB" H 3005 1875 20  0001 C CNN
+F 3 "" H 2975 1725 50  0001 C CNN
+	1    2975 1725
+	0    1    1    0   
+$EndComp
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R7
+U 1 1 5F5DADB1
+P 3075 1575
+F 0 "R7" V 3033 1643 45  0000 L CNN
+F 1 "499" V 3117 1643 45  0000 L CNN
+F 2 "fab-R1206FAB" H 3105 1725 20  0001 C CNN
+F 3 "" H 3075 1575 50  0001 C CNN
+	1    3075 1575
+	0    1    1    0   
+$EndComp
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R8
+U 1 1 5F5DB64B
+P 3175 1425
+F 0 "R8" V 3133 1493 45  0000 L CNN
+F 1 "499" V 3217 1493 45  0000 L CNN
+F 2 "fab-R1206FAB" H 3205 1575 20  0001 C CNN
+F 3 "" H 3175 1425 50  0001 C CNN
+	1    3175 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 1925 2975 1925
+Wire Wire Line
+	3075 1775 2900 1775
+Wire Wire Line
+	2900 1625 3175 1625
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R17
+U 1 1 5F5DEAE5
+P 1625 3025
+F 0 "R17" V 1583 3093 45  0000 L CNN
+F 1 "499" V 1667 3093 45  0000 L CNN
+F 2 "fab-R1206FAB" H 1655 3175 20  0001 C CNN
+F 3 "" H 1625 3025 50  0001 C CNN
+	1    1625 3025
+	0    1    1    0   
+$EndComp
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R16
+U 1 1 5F5E0F19
+P 1500 2875
+F 0 "R16" V 1458 2943 45  0000 L CNN
+F 1 "499" V 1542 2943 45  0000 L CNN
+F 2 "fab-R1206FAB" H 1530 3025 20  0001 C CNN
+F 3 "" H 1500 2875 50  0001 C CNN
+	1    1500 2875
+	0    1    1    0   
+$EndComp
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R15
+U 1 1 5F5E19A6
+P 1375 2725
+F 0 "R15" V 1333 2793 45  0000 L CNN
+F 1 "499" V 1417 2793 45  0000 L CNN
+F 2 "fab-R1206FAB" H 1405 2875 20  0001 C CNN
+F 3 "" H 1375 2725 50  0001 C CNN
+	1    1375 2725
+	0    1    1    0   
+$EndComp
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R14
+U 1 1 5F5E1DE3
+P 1250 2575
+F 0 "R14" V 1208 2643 45  0000 L CNN
+F 1 "499" V 1292 2643 45  0000 L CNN
+F 2 "fab-R1206FAB" H 1280 2725 20  0001 C CNN
+F 3 "" H 1250 2575 50  0001 C CNN
+	1    1250 2575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 2825 1625 2825
+Wire Wire Line
+	1700 2675 1500 2675
+Wire Wire Line
+	1700 2525 1375 2525
+Wire Wire Line
+	1700 2375 1250 2375
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R13
+U 1 1 5F5E3AE2
+P 1625 2025
+F 0 "R13" V 1583 2093 45  0000 L CNN
+F 1 "499" V 1667 2093 45  0000 L CNN
+F 2 "fab-R1206FAB" H 1655 2175 20  0001 C CNN
+F 3 "" H 1625 2025 50  0001 C CNN
+	1    1625 2025
+	0    1    1    0   
+$EndComp
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R12
+U 1 1 5F5E4971
+P 1525 1875
+F 0 "R12" V 1483 1943 45  0000 L CNN
+F 1 "499" V 1567 1943 45  0000 L CNN
+F 2 "fab-R1206FAB" H 1555 2025 20  0001 C CNN
+F 3 "" H 1525 1875 50  0001 C CNN
+	1    1525 1875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 2225 1625 2225
+Wire Wire Line
+	1700 2075 1525 2075
+Wire Wire Line
+	1700 1925 1375 1925
+Wire Wire Line
+	1700 1775 1250 1775
+Wire Wire Line
+	1700 1625 1150 1625
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R11
+U 1 1 5F5E5315
+P 1375 1725
+F 0 "R11" V 1333 1793 45  0000 L CNN
+F 1 "499" V 1417 1793 45  0000 L CNN
+F 2 "fab-R1206FAB" H 1405 1875 20  0001 C CNN
+F 3 "" H 1375 1725 50  0001 C CNN
+	1    1375 1725
+	0    1    1    0   
+$EndComp
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R9
+U 1 1 5F5E95E8
+P 1150 1425
+F 0 "R9" V 1192 1357 45  0000 R CNN
+F 1 "499" V 1108 1357 45  0000 R CNN
+F 2 "fab-R1206FAB" H 1180 1575 20  0001 C CNN
+F 3 "" H 1150 1425 50  0001 C CNN
+	1    1150 1425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BarduinoStepperBoard-rescue:RES-US1206FAB-fab R10
+U 1 1 5F5E6A95
+P 1250 1575
+F 0 "R10" V 1208 1643 45  0000 L CNN
+F 1 "499" V 1292 1643 45  0000 L CNN
+F 2 "fab-R1206FAB" H 1280 1725 20  0001 C CNN
+F 3 "" H 1250 1575 50  0001 C CNN
+	1    1250 1575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2125 6250 1825 6250
+Wire Wire Line
+	950  6250 1225 6250
+Text GLabel 1525 6750 3    50   Input ~ 0
+GND
+Wire Wire Line
+	1525 6550 1525 6625
+Wire Wire Line
+	1525 6625 2125 6625
+Wire Wire Line
+	2125 6625 2125 6550
+Connection ~ 1525 6625
+Wire Wire Line
+	1525 6625 1525 6750
+Wire Wire Line
+	950  6550 950  6625
+Wire Wire Line
+	950  6625 1525 6625
+Text GLabel 750  6250 0    50   Input ~ 0
+VIN
+Wire Wire Line
+	750  6250 950  6250
+Connection ~ 950  6250
+Text GLabel 2325 6250 2    50   Input ~ 0
+V5
+Wire Wire Line
+	2325 6250 2125 6250
+Connection ~ 2125 6250
+Text GLabel 1200 5600 0    50   Input ~ 0
+VIN
+Text GLabel 1225 5500 0    50   Input ~ 0
+GND
+Wire Wire Line
+	1225 5500 1325 5500
+Wire Wire Line
+	1200 5600 1325 5600
+Text GLabel 1100 7250 0    50   Input ~ 0
+GND
+Text GLabel 1100 7150 0    50   Input ~ 0
+UPDI
+Wire Wire Line
+	1100 7150 1250 7150
+Wire Wire Line
+	1250 7250 1100 7250
+Text GLabel 1700 700  1    50   Input ~ 0
+V5
+Wire Wire Line
+	1700 700  1700 1000
+Wire Wire Line
+	2175 1000 1700 1000
+Connection ~ 1700 1000
+Wire Wire Line
+	1700 1000 1700 1475
+Text GLabel 2900 700  1    50   Input ~ 0
+GND
+Wire Wire Line
+	2900 700  2900 1000
+Wire Wire Line
+	2475 1000 2900 1000
+Connection ~ 2900 1000
+Wire Wire Line
+	2900 1000 2900 1475
+Text GLabel 4125 3225 2    50   Input ~ 0
+Pin1
+Text GLabel 4125 3075 2    50   Input ~ 0
+Pin2
+Text GLabel 4125 2925 2    50   Input ~ 0
+Pin3
+Text GLabel 4125 2775 2    50   Input ~ 0
+Pin4
+Text GLabel 4125 2625 2    50   Input ~ 0
+Pin5
+Text GLabel 4125 1525 2    50   Input ~ 0
+Pin6
+Text GLabel 4125 1375 2    50   Input ~ 0
+Pin7
+Text GLabel 4125 1225 2    50   Input ~ 0
+Pin8
+Wire Wire Line
+	4125 3225 2975 3225
+Wire Wire Line
+	4125 3075 3100 3075
+Wire Wire Line
+	4125 2925 3225 2925
+Wire Wire Line
+	4125 2775 3350 2775
+Wire Wire Line
+	3450 2625 4125 2625
+Wire Wire Line
+	2975 1525 4125 1525
+Wire Wire Line
+	4125 1375 3075 1375
+Wire Wire Line
+	3175 1225 4125 1225
+Text GLabel 1025 3225 0    50   Input ~ 0
+Pin17
+Text GLabel 1025 3075 0    50   Input ~ 0
+Pin16
+Text GLabel 1025 2925 0    50   Input ~ 0
+Pin15
+Text GLabel 1025 2775 0    50   Input ~ 0
+Pin14
+Text GLabel 1025 1825 0    50   Input ~ 0
+Pin13
+Text GLabel 1025 1675 0    50   Input ~ 0
+Pin12
+Text GLabel 1025 1525 0    50   Input ~ 0
+Pin11
+Text GLabel 1025 1375 0    50   Input ~ 0
+Pin10
+Text GLabel 1025 1225 0    50   Input ~ 0
+Pin9
+Wire Wire Line
+	1025 1225 1150 1225
+Wire Wire Line
+	1025 1375 1250 1375
+Wire Wire Line
+	1025 1525 1375 1525
+Wire Wire Line
+	1025 1675 1525 1675
+Wire Wire Line
+	1025 1825 1625 1825
+Wire Wire Line
+	1025 2775 1250 2775
+Wire Wire Line
+	1375 2925 1025 2925
+Wire Wire Line
+	1025 3075 1500 3075
+Wire Wire Line
+	1025 3225 1625 3225
+Text GLabel 10600 6350 2    50   Input ~ 0
+Pin1
+Text GLabel 10600 6200 2    50   Input ~ 0
+Pin2
+Text GLabel 10600 6050 2    50   Input ~ 0
+Pin3
+Text GLabel 10600 5900 2    50   Input ~ 0
+Pin4
+Text GLabel 10600 5750 2    50   Input ~ 0
+Pin5
+Text GLabel 10600 5600 2    50   Input ~ 0
+Pin6
+Text GLabel 10600 5450 2    50   Input ~ 0
+Pin7
+Text GLabel 10600 5300 2    50   Input ~ 0
+Pin8
+Text GLabel 10600 3950 2    50   Input ~ 0
+Pin17
+Text GLabel 10600 4100 2    50   Input ~ 0
+Pin16
+Text GLabel 10600 4250 2    50   Input ~ 0
+Pin15
+Text GLabel 10600 4400 2    50   Input ~ 0
+Pin14
+Text GLabel 10600 4550 2    50   Input ~ 0
+Pin13
+Text GLabel 10600 4700 2    50   Input ~ 0
+Pin12
+Text GLabel 10600 4850 2    50   Input ~ 0
+Pin11
+Text GLabel 10600 5000 2    50   Input ~ 0
+Pin10
+Text GLabel 10600 5150 2    50   Input ~ 0
+Pin9
+$Comp
+L BarduinoStepperBoard-rescue:LEDFAB1206-fab M?
+U 1 1 5F62FCBF
+P 6300 1250
+F 0 "M?" H 6378 1342 45  0000 L CNN
+F 1 "red" H 6378 1258 45  0000 L CNN
+F 2 "fab-LED1206FAB" H 6330 1400 20  0001 C CNN
+F 3 "" H 6300 1250 50  0001 C CNN
+	1    6300 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 2075 2    50   Input ~ 0
+UPDI
+Wire Wire Line
+	4150 2075 2900 2075
+$EndSCHEMATC
